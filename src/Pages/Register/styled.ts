@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { shade } from 'polished';
 
-export const FormContainer = styled.div`
+export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,6 +25,13 @@ export const FormContainer = styled.div`
         color: #666360;
         }
     }
+`;
+
+export const Image = styled.img`
+`;
+
+export const FormContainer = styled.div`
+    margin-top: 50px;
 `;
 
 export const Label = styled.div`
