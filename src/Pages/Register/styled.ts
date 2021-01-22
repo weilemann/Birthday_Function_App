@@ -13,16 +13,16 @@ export const Container = styled.div`
         width: 200px;
         height: 30px;
         margin-bottom: 20px;
-        font-size: 16px;
+        font-size: 15px;
         flex: 1;
         padding: 2px;
-        border: 0;
         color: #232129;
         background-image: url(../images/select-arrow.png), 
         -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
         background-position: center right;
         background-repeat: no-repeat;
         border: 1px solid #AAA;
+        border-radius: 2.5px;
         font-size: inherit;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -35,7 +35,7 @@ export const Container = styled.div`
 
         &::placeholder {
         color: #807b77;
-        font-size: 16px;
+        font-size: 15px;
         }
     }
 `;
@@ -63,12 +63,12 @@ export const Button = styled.button`
     font-size: 18px;
     color: #312E38;
     margin-top: 25px;
-    background-color: #ff9000;
+    background-color: #96918c;
     border-radius: 5px;
     border: none;
     cursor: pointer;
 
     &:hover {
-        background-color: ${shade(0.2, '#ff9000')};
+        background-color: ${shade(0.2, '#96918c')};
     }
 `;
