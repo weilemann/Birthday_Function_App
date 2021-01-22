@@ -12,18 +12,35 @@ export const Container = styled.div`
         display: flex;
         width: 200px;
         height: 30px;
-        border-radius: 5px;
-        border: 1px solid #000;
         margin-bottom: 20px;
         font-size: 16px;
         flex: 1;
         padding: 2px;
         border: 0;
         color: #232129;
+        background-image: url(../images/select-arrow.png), 
+        -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+        background-position: center right;
+        background-repeat: no-repeat;
+        border: 1px solid #AAA;
+        font-size: inherit;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        appearance: none;
+        -webkit-appearance: button;
+        -webkit-padding-end: 20px;
+        -webkit-padding-start: 2px;
+        -webkit-user-select: none;
 
         &::placeholder {
-        color: #666360;
+        color: #807b77;
+        font-size: 16px;
         }
+    }
+
+    select {
+
     }
 `;
 
