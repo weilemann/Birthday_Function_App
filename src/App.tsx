@@ -1,8 +1,8 @@
 import React from 'react';
 
-import GlobalStyle from './Styles/global';
+import GlobalStyle from './styles/global';
 
-import Register from './Pages/Register';
+import Register from './pages/Register';
 
 const App = () => {
   return (
